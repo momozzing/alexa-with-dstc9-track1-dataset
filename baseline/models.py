@@ -64,3 +64,5 @@ class GPT2ClsDoubleHeadsModel(GPT2PreTrainedModel):
             outputs = (loss,) + outputs
 
         return outputs  # (lm loss), (mc loss), lm logits, mc logits, presents, (all hidden_states), (attentions)
+
+#test
